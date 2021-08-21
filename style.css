@@ -71,6 +71,9 @@ section .title::before {
   background: #111;
   transform: translateX(-50%);
 }
+.text{
+  text-align: center;
+}
 section .title::after {
   position: absolute;
   bottom: -8px;
@@ -101,7 +104,7 @@ section .title::after {
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: #fff;
+  color: rgb(17, 15, 15);
   font-size: 35px;
   font-weight: 600;
 }
@@ -308,7 +311,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-  content: "what i know";
+  content: "where i live";
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -383,7 +386,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: "what i did";
+  content: "how i look";
 }
 .teams .carousel .card {
   background: #222;
